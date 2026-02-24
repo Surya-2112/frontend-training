@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="Form.css">
+</head>
+<body>
+<form id="Employee-form" class="forms">
+    <h1>Employee Form</h1>
+    <div>
+    <label for="name" class="label">Name:</label>
+    <input type="text" placeholder="eg: Ram" id="emp-name" class="input">
+    </div> <br><div>
+    <label for="age" class="label">Age:</label>
+    <input type="number" id="age" class="input">
+    </div><br><div>
+    <label for="DoB">Date of Brith:</label>
+    <input type="date" id="DoB" >
+    </div><br><div>
+    <label for="email" class="label">Email:</label>
+    <input type="email" id="email" class="input">
+    </div><br><div>
+    <label for="phone-number" class="label"> Phone Number:</label>
+    <input type="text" id="phone-number" class="input">
+   </div><br><div>
+    <label for="gender" class="label">Gender:</label>
+    <input type="radio" value="Male" id="Male" class="input" name="gender"> <label for="Male">Male</label>
+    <input type="radio" value="Female"  id="Female" class="input" name="gender"><label for="Female">Female</label> 
+   </div><br><div>
+    <label for="Favourite-game">Favourite Game:</label>
+    <input type="checkbox" name="Favourite-game" id="chess"><label for="chess">Chess</label>
+    <input type="checkbox" name="Favourite-game" id="Cricket"><label for="Cricket">Cricket</label>
+    <input type="checkbox" name="Favourite-game" id="Football"><label for="Football">Football</label>
+    <input type="checkbox" name="Favourite-game" id="Others"><label for="Others">Others</label>
+    </div><br><div id="text-area">
+    <label for="quotes" id="text-area-label">One Liner Quotes:</label>
+    <textarea name="quotes" id="quotes"></textarea>
+    </div><br><div>
+    <input type="submit">
+    </div>
+  </form>
+</body>
+</html>

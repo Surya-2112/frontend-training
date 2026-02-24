@@ -1,0 +1,17 @@
+
+.forms{
+    color: #000000;
+    background-color: rgb(252, 240, 255);
+    border-radius: 5%;
+    border: 5px solid;
+    text-align: center;
+    padding: 5px;
+    position:relative;
+   
+}
+
+#text-area {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
